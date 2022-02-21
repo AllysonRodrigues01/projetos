@@ -1,0 +1,124 @@
+body {
+    font-size: 15pt;
+    margin: 0;
+}
+garena.PNG {
+  width: 0;
+}
+.garenaff {
+  width: 75px;
+  background: white;
+}
+.recarga {
+  width: 320px;
+  height: 100px;
+}
+.menu {
+  display: inline;
+  width: 30px;
+  height: 20px;
+  float: right;
+  position: relative;
+  margin-top: 12px;
+}
+.jogo {
+  background: white;
+  margin-top: -20px;
+  opacity: 100%;
+  width: -900px;
+}
+div > .espaco {
+  width: 39%;
+  float: left;
+  margin-top: -64px;
+  opacity: 20%;
+}
+div > .segundo {
+  width: 39%;
+  float: right;
+  margin-top: -64px;
+  opacity: 20%;
+}
+div > .quadrado {
+  margin-top: -24px;
+  opacity: 20%;
+}
+form > .botao {
+  float: left;
+  background: white;
+  margin-top: -1%;
+  width: 148px;
+}
+form > .fogareu {
+  width: 87%;
+  float: right;
+  margin-top: 5%;
+  opacity: 70%;
+}
+div > .meio {
+  margin-top: -0px;
+  opacity: 20%;
+}
+div > .linha {
+  opacity: 20%;
+  width: 110%;
+  margin-top: -68%;
+  transform: rotate(90deg)
+}
+
+div > .sped {
+  float: right;
+  background: white;  
+  margin-top: -50%;
+  width: 45%;
+  
+}
+
+div > .sped1 {
+  width: 47%;
+  float: right;
+  margin-top: -20%;
+  opacity: 67%;
+
+}
+
+
+div > .baixo {
+  margin-top: 55%;
+  opacity: 20%;
+}
+div > .marca {
+  opacity: 40%;
+}
+
+
+
+
+.menu {
+  top: 100%;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+.menu a {
+  color: white;
+  display: block;
+  padding: 0px;
+}
+.menu a:hover {
+  background-color: white;
+  color: blue;
+}
+.menu li {
+  list-style: none;
+  display: inline-block;
+}
+.submenu {
+  position: absolute;
+  display: none;
+}
+.menu li:hover .submenu {
+  display: block;
+  background: red;
+  width: 60px;
+}
